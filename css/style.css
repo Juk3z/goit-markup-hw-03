@@ -454,15 +454,19 @@ section:nth-child(2n + 4) {
 .cards .item {
   margin-right: 30px;
   margin-top: 30px;
-  padding-bottom: 20px;
   border: 1px solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
 }
+
 .cards .item:nth-child(-1n + 3) {
   margin-top: 0px;
 }
 .cards .item:nth-child(3n) {
   margin-right: 0px;
+}
+
+.cards-text {
+  padding: 20px 24px;
 }
 
 .cards-tittle {
@@ -477,8 +481,4 @@ section:nth-child(2n + 4) {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 30px;
-}
-
-.cards img {
-  margin-bottom: 20px;
 }
