@@ -88,6 +88,7 @@ section:nth-child(2n + 4) {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header > .container {
@@ -237,7 +238,6 @@ section:nth-child(2n + 4) {
 
 /* Оформление секции чем мы занимаемся */
 .about {
-  padding: 0 15px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--main-background-color);
@@ -283,7 +283,6 @@ section:nth-child(2n + 4) {
 }
 
 .team {
-  padding: 0 15px;
   padding-top: 94px;
   padding-bottom: 94px;
   color: var(--main-text-color);
@@ -402,6 +401,10 @@ section:nth-child(2n + 4) {
   margin-right: auto;
 }
 
+.portfolio {
+  padding: 94px 0;
+}
+
 .button {
   padding: 0;
 }
@@ -441,7 +444,6 @@ section:nth-child(2n + 4) {
 
 .portfolio .foto {
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .cards {
