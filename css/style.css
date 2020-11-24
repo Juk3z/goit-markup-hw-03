@@ -414,6 +414,7 @@ section:nth-child(2n + 4) {
 
 .portfolio a {
   text-decoration: none;
+  color: var(--secondary-text-color);
 }
 
 .portfolio {
